@@ -1,2 +1,36 @@
-# cal-money-xml-test-
-fortynayt or babacci
+# XML 設定檔程式使用說明
+
+這個程式的目的是讀取一個 XML 設定檔，計算利息並生成結果到文字檔中。你可以使用提供的可執行檔案（`.exe`）來運行這個程式。
+
+## 使用步驟
+
+1. **下載程式**：從這個項目中下載提供的 `main.exe` 可執行檔案。
+
+2. **設定 XML 設定檔**：在同一目錄下創建一個名為 `setting.xml` 的 XML 設定檔，並根據你的需要填寫以下內容：
+
+    ```xml
+    <data>
+        <money>100</money>
+        <interest>10</interest>
+        <months>120</months>
+    </data>
+    ```
+
+    - `<money>`: 你的初始金額。
+    - `<interest>`: 利率，以百分比表示。
+    - `<months>`: 你要計算的月數。
+
+3. **執行程式**：雙擊運行 `your-program.exe` 可執行檔案，它會讀取 `setting.xml` 設定檔，計算總金額並將結果寫入 `result.txt` 文字檔。
+
+4. **查看結果**：在執行完程式後，你可以打開 `result.txt` 文字檔，查看計算後的總金額。
+
+## 注意事項
+
+- 請確保 `setting.xml` 設定檔存在於同一目錄下，且格式正確。
+- 本程式僅用於示範和教育用途，請根據實際需求進行修改和擴展。
+
+---
+
+**關於作者**
+
+- 作者：joshbochuan
